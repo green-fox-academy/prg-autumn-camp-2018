@@ -79,13 +79,28 @@
 
 ## Workshop
 
+- Running `JavaScript` from your `HTML` file:
+```html
+<html>
+  <head>
+  </head>
+  <body>
+    <!-- after all the contents should come the script tag -->
+    <script>
+    </script>
+    <!-- or have the scripts in a separate scripts.js file -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
+```
+
 ### Exercise 00
 - Try each example in the Developer tools
 
 From now on work in separate HTML files per exercise.
 
 ### Exercise 01
-- Create an application that says `Hello World!`
+- Create an application that says `Hello World!` on the console
 - Modify the application to greet you
 - Extend it to greet your tablemates as well
 
