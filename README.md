@@ -24,13 +24,11 @@ the Camp!
 ### Day 1
 | Time          | Event                                                                        |
 | :------------ | :--------------------------------------------------------------------------- |
-| 08:00 - 08:30 | Arriving & Introduction                                                      |
-| 08:30 - 08:45 | Check-in                                                                     |
-| 08:45 - 09:30 | Icebreaker activity                                                          |
+| 08:45 - 09:30 | Arriving & Introduction & Check-in                                           |
 | 09:30 - 11:00 | Presentation about HTML and CSS                                              |
-| 11:00 - 13:00 | [Introduction to Web development basics](web-development-basics.md) workshop |
-| 13:00 - 14:00 | Lunch break                                                                  |
-| 14:00 - 15:30 | [Introduction to Web development basics](web-development-basics.md) workshop |
+| 11:00 - 12:00 | [Introduction to Web development basics](web-development-basics.md) workshop |
+| 12:00 - 13:00 | Lunch break                                                                  |
+| 13:00 - 15:30 | [Introduction to Web development basics](web-development-basics.md) workshop |
 | 15:30 - 17:30 | [Blog project](blog-project.md) workshop                                     |
 | 17:30 - 18:00 | Check-out                                                                    |
 
