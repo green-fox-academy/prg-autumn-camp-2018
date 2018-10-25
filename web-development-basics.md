@@ -48,6 +48,19 @@
 - Separate your solutions into different folders
 - Keep in mind that it does not have to be [pixel-perfect](http://lmgtfy.com/?q=What+does+%22pixel+perfect%22+mean%3F)
 - Do not forget to download [the duck](assets/the-duck.png)
+- Basic `HTML` structure:
+```html
+<html>
+  <head>
+    <style>
+    </style>
+    <!-- or have the styles in a separate styles.css file -->
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+  </body>
+</html>
+```
 
 ### Exercise 1
 ![](assets/exercise-01.png)
