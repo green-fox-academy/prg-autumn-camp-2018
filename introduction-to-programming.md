@@ -150,12 +150,12 @@ From now on work in separate HTML files per exercise.
 - Write out the author of the book
 - Write out the title of the book
 - Write out the year of the book
-- Create two more book objects (with the sa§me details)
+- Create two more book objects (with the same details)
 - Put all of them into an array
 - Write all of them to the console using a `forEach`
 - Write out the title for each
 - Write out `I recommend reading TitleOfBook` if the year is fresher than 2010
-- Write out `You've probable already read TitleOfBook` otherwise
+- Write out `You've probably already read TitleOfBook` otherwise
 
 ### Exercise 08 (optional)
 - Create an array of numbers: 3, 2, 5, 1, 8
