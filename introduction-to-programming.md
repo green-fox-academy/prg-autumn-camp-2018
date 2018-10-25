@@ -37,7 +37,9 @@
     ```javascript
     let mentors = ['Aze', 'Arnika', 'Roni', 'Ondra'];
     console.log(mentors[0]);
-    mentors.forEach((mentor, index) => { ... });
+    mentors.forEach((mentor, index) => {
+      console.log(mentor);
+    });
     ```
   - Object
     ```javascript

@@ -37,19 +37,20 @@ the Camp!
 | :------------ | :------------------------------------------------------------------------ |
 | 09:00 - 09:30 | Check-in                                                                  |
 | 09:30 - 11:00 | Presentation about JavaScript Basics                                      |
-| 11:00 - 13:00 | [Introduction to programming](introduction-to-programming.md) workshop    |
-| 13:00 - 14:00 | Lunch break                                                               |
-| 14:00 - 15:30 | [Introduction to programming](introduction-to-programming.md) workshop    |
+| 11:00 - 12:00 | [Introduction to programming](introduction-to-programming.md) workshop    |
+| 12:00 - 13:00 | Lunch break                                                               |
+| 13:00 - 17:30 | [Introduction to programming](introduction-to-programming.md) workshop    |
 | 17:30 - 18:00 | Check-out                                                                 |
+| 18:00 -       | Beer & fun                                                                  |
 
 ### Day 3
 | Time          | Event                                                                            |
 | :------------ | :------------------------------------------------------------------------------- |
 | 09:00 - 09:30 | Check-in                                                                         |
 | 09:30 - 11:00 | Presentation about DOM manipulation                                              |
-| 11:00 - 13:00 | [Introduction to DOM manipulation](introduction-to-dom-manipulation.md) workshop |
-| 13:00 - 14:00 | Lunch break                                                                      |
-| 11:00 - 13:00 | [Introduction to DOM manipulation](introduction-to-dom-manipulation.md) workshop |
+| 11:00 - 12:00 | [Introduction to DOM manipulation](introduction-to-dom-manipulation.md) workshop |
+| 12:00 - 13:00 | Lunch break                                                                      |
+| 13:00 - 15:30 | [Introduction to DOM manipulation](introduction-to-dom-manipulation.md) workshop |
 | 15:30 - 17:30 | [Updating your Blog](update-blog-project.md) workshop                            |
 | 17:30 - 18:00 | Check-out                                                                        |
 
@@ -63,8 +64,7 @@ the Camp!
 | 14:00 - 16:30 | [Commiting to git and deploying the blog](deployment.md)                    |
 | 16:30 - 17:00 | Where to go next?                                                           |
 | 17:00 - 17:30 | Demo                                                                        |
-| 17:30 - 18:00 | Check-out                                                                   |
-| 18:00 -       | Beer & fun                                                                  |
+| 17:30 - 18:00 | Check-out & Good bye                                                        |
 
 ## License
 
