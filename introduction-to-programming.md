@@ -13,9 +13,9 @@
   ```javascript
   let myVariable;
   myVariable = 42;
-  let myAnotherVariable = 42
+  let myAnotherVariable = 42;
   ```
-- `console.log`
+- `console.log()`
 - Data types
   - String
     ```javascript
@@ -35,11 +35,11 @@
     ```
   - Array
     ```javascript
-    let mentors = ['Aze', 'Arnika', 'Roni', 'Ondra'];
+    let mentors = ['Arnika', 'Aze', 'Ondra', 'Roni'];
     console.log(mentors[0]);
-    mentors.forEach((mentor, index) => {
-      console.log(mentor);
-    });
+    console.log(mentors[1]);
+    console.log(mentors[2]);
+    console.log(mentors[3]);
     ```
   - Object
     ```javascript
@@ -63,13 +63,23 @@
   - `if`
   - `if ... else`
   ```javascript
-  let coffee = true;
-  if (coffee) {
+  let iHadCoffee = true;
+  if (iHadCoffee) {
     console.log('I am coding!');
   } else {
     console.log('I am waiting for caffein! ');
   }
   ```
+- Loops
+  - do the same thing with all `item` in an `array`
+  - `array.forEach(item => whatToDo)`
+  ```js
+    let mentors = ['Arnika', 'Aze', 'Ondra', 'Roni'];
+    mentors.forEach(mentor => {
+      console.log(mentor);
+    });
+  ```
+    - Extra info: there is some more info on the bottom
 - How to separate your script from the HTML document?
 - Functions
   ```javascript
@@ -85,6 +95,7 @@
 ```html
 <html>
   <head>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <!-- after all the contents should come the script tag -->
@@ -162,3 +173,29 @@ From now on work in separate HTML files per exercise.
 ### Exercise 08 (optional)
 - Create an array of numbers: 3, 2, 5, 1, 8
 - Try to arrange them in ascending order programatically
+
+#### Extra Info
+
+```js
+  let mentors = ['Arnika', 'Aze', 'Ondra', 'Roni'];
+  mentors.forEach(mentor => {
+    console.log(mentor);
+  });
+```
+
+There's more that you can do with the `forEach`, the more general version would look like this:
+
+```js
+  let mentors = ['Arnika', 'Aze', 'Ondra', 'Roni'];
+  mentors.forEach((mentor, index, array) => {
+    console.log(mentor);
+    console.log(index);
+    console.log(array);
+  });
+```
+
+But you can leave out the `3rd` or the `2nd and 3rd` parameter if you don't need them.
+
+- `index` will be the sequence number of the item in the `array`
+- `array` will be the whole `mentors` array
+
