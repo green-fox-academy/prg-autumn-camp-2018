@@ -23,6 +23,14 @@
         width: 100px;
         height: 100px;
       }
+      .dropdown ol {
+        display: none;
+      }
+      
+      .dropdown:hover ol {
+        display: block;
+      }
+
     </style>
   </head>
   <body>
@@ -48,12 +56,12 @@
       </label>
       <button>Click me</button>
     </form>
-    <article>
+    <article id="article-1" class="red-background white-color">
       <p>This is my <a href="https://www.e15.cz/">text</a></p>
       <ul>
         <li>my first list item</li>
         <li>second list item</li>
-        <li>
+        <li class="dropdown">
           third list:
           <ol>
             <li>first</li>

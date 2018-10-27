@@ -60,14 +60,14 @@
 - Create and include a `scripts.js` file just like before
 - Add different classnames to the 4 elements in the HTML file
 - Let's create some variables with the following names and values:
-  - color: purple
-  - number: 10
-  - word: cool
-- Change the background color of the first box to purple, if the `color` is purple
+  - myFavoriteColor: purple
+  - myNumber: 10
+  - myWord: cool
+- Change the background color of the first box to purple, if the `myFavoriteColor` is purple
 - Change the text of the second
-  - if the `number` is bigger than 100 to `whoah, that's a big number.`
+  - if the `myNumber` is bigger than 100 to `whoah, that's a big number.`
   - otherwise `just a regular number, please.`
-- Change the text to `Power of DOM` of the third if the `word` is cool, otherwise change the fourth one
+- Change the text to `Power of DOM` of the third if the `myWord` is cool, otherwise change the fourth one
 
 ### Exercise 03
 - Get your solution of the fourth exercise from yesterday
