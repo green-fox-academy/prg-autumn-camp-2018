@@ -38,7 +38,7 @@
 ## Workshop
 
 ### Exercise 01
-- Get your solution of the first exercise from yesterday
+- Get your solution of the first exercise from the 1st day
 - Create a `scripts.js` file in the same folder as the `index.html`
 - Include `jQuery` and your script file at the end of the HTML file, before the closing `<body>` tag
 ```html
@@ -56,7 +56,7 @@
   - Change the background color of all 3 blue boxes to `yellow`
 
 ### Exercise 02
-- Get your solution of the second exercise from yesterday
+- Get your solution of the second exercise from the 1st day
 - Create and include a `scripts.js` file just like before
 - Add different classnames to the 4 elements in the HTML file
 - Let's create some variables with the following names and values:
@@ -70,7 +70,7 @@
 - Change the text to `Power of DOM` of the third if the `word` is cool, otherwise change the fourth one
 
 ### Exercise 03
-- Get your solution of the fourth exercise from yesterday
+- Get your solution of the fourth exercise from the 1st day
 - Create and include a `scripts.js` file just like before
 - Create an array with your neighbours' (at your table) names and yours
 - Using `forEach` add each name to the `<ul>` list
