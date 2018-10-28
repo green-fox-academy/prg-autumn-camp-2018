@@ -8,7 +8,7 @@ Firebase is a cloud based database, perfect for storing our blog posts safely.
   - Login with your Google Account
 - Add a new Project
   - You can name it as you like
-  - But choose `Hungary` and `europe-west3`
+  - But choose `Czechia` and `europe-west3`
 ![Create Firebase Project](assets/fb-create.png)
 - Wait a little while Google creates the storage for you, then continue
 
