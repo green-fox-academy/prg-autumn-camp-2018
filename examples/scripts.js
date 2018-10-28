@@ -1,3 +1,20 @@
+$('#form1').on('submit', event => {
+  event.preventDefault();
+  $('ul').append(
+    `
+    <li>${$('#ola1').val()}</li>
+    <li>${$('#ola2').val()}</li>
+    `
+  )
+  let path = "posts/1";
+  let dataToSave = {
+    title: $('#ola1').val(),
+    text: $('#ola2').val()
+  };
+  fb.ref(path).set(dataToSave);
+})
+
+
 let myVariable = 5;
 console.log(myVariable);
 console.log("Hello, world!");
@@ -47,12 +64,7 @@ let initialData = [
 
 fb.ref("posts").once('value').then(data => {
   let savedPosts = data.val();
-  savedPosts.forEach(post => {
-    $('body').append(`
-      <h1>${post.title}</h1>
-      <p>${post.text}</p>
-    `);
-  });
+  
 });
 
 
